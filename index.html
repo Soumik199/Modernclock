@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <!--------Hours------>
+          <div class="box">
+              <div class="hour">
+                  <h1 id="hours">00</h1>
+              </div>
+              <h2>Hours</h2>
+          </div>
+        <!-------Minutes---------->
+           <div class="box">
+              <div class="Minutes">
+                 <h1 id="minutes">01</h1>
+              </div>
+              <h2>Minutes</h2>
+           </div>
+        <!------Second------>
+        <div class="box">
+            <div class="Second">
+               <h1 id="second">21</h1>
+            </div>
+            <h2>Seconds</h2>
+         </div>
+        <!--------AM or PM-->
+        <div class="box">
+            <div class="AmorPm">
+               <h1 id="AmorPm">21</h1>
+            </div>
+            <h2>Am/Pm</h2>
+         </div>
+             <div class="Alarm">
+              <button id="alarm">Set a Alarm <i class="fa fa-clock-o" aria-hidden="true"></i></button>
+             </div>
+            <div class="count">
+                <a href="coutdown.html"><button id="count">Count Down <i class="fa fa-ravelry" aria-hidden="true"></i></button></a>
+            <div>
+            <div class="Today">
+                <h3>Today Date: <span id='date'> </span></h3>
+            </div>
+    </div>
+<script src="clock.js"></script>
+<script src="count.js"></script>
+</body>
+</html>

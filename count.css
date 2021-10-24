@@ -1,0 +1,100 @@
+body{
+   background-image: url('Time.png');
+}
+.container{
+    position: absolute;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+    width: 500px;
+    height: 240px;
+    border:solid 1px;
+    border-radius: 10px;
+}
+#hour{
+    width: 90px;
+    text-align: center;
+    border:none; 
+    outline:none
+}
+#minutes{
+    width: 90px;
+    text-align: center;
+    border:none; 
+    outline:none
+}
+#second{
+    width: 90px;
+    text-align: center;
+    border:none; 
+    outline:none
+}
+#start{
+    width: 130px;
+    height: 40px;
+    margin-right:30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 15px;
+    border:none;
+    outline:none;
+    font-size:1.2rem;
+    font-weight: 500;
+    background-color:rgba(0, 255, 200, 0.644);
+}
+#reset{
+    width: 130px;
+    height: 40px;
+    margin-right:30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    font-weight: 500;
+    border:none;
+    outline:none;
+    font-weight: 500;
+    background-color:rgba(128, 255, 0, 0.815);
+}
+i{
+    color: crimson;
+    font-size:15px;
+}
+.box
+{
+    margin: 20px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgb(26, 25, 25);
+}
+@media only screen and (max-width:360px){
+    .container{
+        position: absolute;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        top:50%;
+        left:50%;
+        transform:translate(-50% ,-50%);
+        width: 350px;
+        height: 200px;
+        border:solid 1px;
+        border-radius: 10px;
+    }
+
+    .box
+     {
+    margin: 5px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgb(26, 25, 25);
+    }
+   
+}
